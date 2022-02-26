@@ -12,10 +12,12 @@ nav {
 .nav {
   width: 100%;
   background-image: url(images/background.jpeg);
-  height: 100vh;
+  height: 500px;
   /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
+  margin-right: 20%;
+  padding-top: 20px;
 }
 
 nav ul li {
@@ -30,4 +32,17 @@ nav ul li a {
   padding: 20px;
   font-size: 20px;
   /* padding-left: 20%; */
+  padding-top: 30px;
+}
+
+.logo {
+  font-style: italic;
+}
+
+.introduction {
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 30px;
+  margin-right: 60%;
 }

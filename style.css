@@ -162,3 +162,11 @@ ol li a {
   background-color: black;
   padding-top: 60px;
 }
+
+.code img {
+  height: 400px;
+}
+
+.code {
+  display: inline-block;
+}

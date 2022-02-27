@@ -138,4 +138,21 @@ ol li a {
   height: 150px;
   align-items: center;
   border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.insurance-img {
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.quiz-img{
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
 }

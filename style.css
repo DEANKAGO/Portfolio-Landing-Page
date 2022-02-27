@@ -221,5 +221,9 @@ footer p {
 
 .icon {
   margin-right: 10px;
-  padding: 20px;
+}
+
+.icon a {
+  color: white;
+  width: 100px;
 }

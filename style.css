@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 50px;
+  font-style: italic;
+}
+
+.logo span {
+  color: red;
+}
+
+.nav {
+  background-image: url(images/background2.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 20px;
+  /* padding-left: 20%; */
+  padding-top: 30px;
+}
+
+.introduction {
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  position: absolute;
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+.about {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.about-me {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.about-me h2 {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.about-me p {
+  font-size: 20px;
+}
+
+.about img {
+  border-radius: 0px;
+  height: 400px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+button {
+  background-color: red;
+  margin-top: 40px;
+  width: 120px;
+  height: 40px;
+  border: 2px;
+  border-radius: 30px;
+  transition: transform 0.3s;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+.projects {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.projects-list {
+}
+
+ol li {
+  display: inline-block;
+  justify-content: space-between;
+  padding: 10px;
+  list-style: decimal;
+  border: 2px solid red;
+  border-radius: 10px;
+  border-top: ;
+}
+
+ol li a {
+  text-decoration: none;
+}
+
+.projects h2 {
+  margin-bottom: 40px;
+  font-size: 40px;
+  color: red;
+}
+
+.burger-img {
+  height: 150px;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.insurance-img {
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.quiz-img {
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.hobbies {
+  color: white;
+  background-color: black;
+  padding-top: 60px;
+  display: block;
+}
+
+.hobbies h2 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 80px;
+  color: red;
+}
+
+.code img {
+  height: 400px;
+  border-radius: 20px;
+}
+
+.code {
+  display: flex;
+  justify-content: space-around;
+}
+
+.code p {
+  font-size: 30px;
+  margin-right: 150px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.skate {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.skate img {
+  height: 400px;
+  border-radius: 20px;
+}
+
+.skate p {
+  font-size: 30px;
+  margin-top: 150px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}
+
+footer p {
+  color: white;
+  margin-left: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.icon a {
+  color: white;
+  width: 100px;
+}
+
+@media only screen and (max-width: 935px) {
+  .nav {
+    background-image: url(images/background2.jpg);
+    /* height: 200px; */
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 1px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 15px;
+    padding-top: 30px;
+  }
+  .logo {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 10px;
+    font-style: italic;
+  }
+
+  .logo span {
+    color: red;
+  }
+  .introduction {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 70px;
+  }
+}
+@media only screen and (max-width: 445px) {
+  .projects {
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 905px) {
+  .about {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+  }
+
+  .about-me {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .about-me h2 {
+    /* margin-bottom: 30px; */
+    font-size: 25px;
+  }
+
+  .about-me p {
+    font-size: 15px;
+  }
+
+  .about img {
+    border-radius: 0px;
+    height: 250px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  button {
+    background-color: red;
+    /* margin-top: 40px; */
+    width: 80px;
+    height: 30px;
+    border: 2px;
+    border-radius: 30px;
+    transition: transform 0.3s;
+  }
+}
+@media only screen and (max-width: 867px) {
+  .hobbies {
+    color: white;
+    background-color: black;
+    padding-top: 60px;
+    display: block;
+  }
+
+  .hobbies h2 {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 80px;
+    color: red;
+  }
+
+  .code img {
+    height: 250px;
+    border-radius: 20px;
+  }
+
+  .code {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .code p {
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .skate {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .skate img {
+    height: 250px;
+    border-radius: 20px;
+  }
+
+  .skate p {
+    font-size: 15px;
+    margin-top: 60px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .code img {
+    height: 150px;
+    border-radius: 20px;
+  }
+  .skate img {
+    height: 150px;
+    border-radius: 20px;
+  }
+  .about img {
+    border-radius: 0px;
+    height: 150px;
+    border-radius: 30px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+}

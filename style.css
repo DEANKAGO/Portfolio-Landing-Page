@@ -150,10 +150,15 @@ ol li a {
   border-radius: 10px;
 }
 
-.quiz-img{
+.quiz-img {
   height: 150px;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
 }
+
+.hobbies {
+  color: white;
+  background-color: black;
+  padding-top: 60px;
 }

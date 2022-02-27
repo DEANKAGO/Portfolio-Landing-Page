@@ -207,3 +207,19 @@ ol li a {
   text-align: center;
   margin-left: 50px;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}
+
+footer p {
+  color: white;
+  margin-left: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+  padding: 20px;
+}

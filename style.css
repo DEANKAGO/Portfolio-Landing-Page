@@ -43,6 +43,8 @@ nav ul li a {
   color: white;
   text-align: center;
   padding-top: 150px;
+  position: absolute;
   font-size: 30px;
   margin-right: 60%;
+  margin-bottom: 100px;
 }

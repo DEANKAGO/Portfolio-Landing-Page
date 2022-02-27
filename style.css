@@ -115,5 +115,27 @@ button:hover {
 }
 
 ol li {
-  list-style-type: disc;
+  display: inline-block;
+  justify-content: space-between;
+  padding: 10px;
+  list-style: decimal;
+  border: 2px solid red;
+  border-radius: 10px;
+  border-top: ;
+}
+
+ol li a {
+  text-decoration: none;
+}
+
+.projects h2 {
+  margin-bottom: 40px;
+  font-size: 40px;
+  color: red;
+}
+
+.burger-img {
+  height: 150px;
+  align-items: center;
+  border-radius: 10px;
 }
